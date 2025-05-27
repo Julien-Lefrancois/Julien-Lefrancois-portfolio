@@ -1,0 +1,75 @@
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HEADER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+header{
+    background-color: #ffa600;
+    color: black;
+}
+
+header h1{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav ul li{
+    background-color: black;
+    color: #ffa600;
+    text-decoration: none;
+    margin: 30px;
+    padding: 5px 10px;
+    border: solid black 1px;
+    cursor:pointer;
+}
+
+nav li:hover{
+    background-color: #ffa600;
+    color: black;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MAIN %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+main{
+    background-color: burlywood;
+    padding: 20px;
+}
+
+article{
+    display: flex;
+}
+
+#p1{
+    display: flex;
+    width: 400px;
+    background-color: #ffa600;
+    padding: 30px;
+    margin: 20px;
+}
+
+#p2{
+    display: flex;
+    width: 400px;
+    background-color: #ffa600;
+    padding: 30px;
+    margin: 20px;
+}
+
+#p3{
+    display: flex;
+    width: 200px;
+    background-color: #ffa600;
+    padding: 30px;
+    margin: 20px;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FOOTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+footer{
+    background-color: #ffa600;
+    height: 300px;
+}
