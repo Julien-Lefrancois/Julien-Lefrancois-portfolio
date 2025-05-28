@@ -1,3 +1,7 @@
+body{
+
+}
+
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HEADER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 header{
     background-color: #ffa600;
@@ -18,8 +22,8 @@ nav ul{
 }
 
 nav ul li{
-    background-color: black;
-    color: #ffa600;
+    background-color: burlywood;
+    color: black;
     text-decoration: none;
     margin: 30px;
     padding: 5px 10px;
@@ -27,8 +31,13 @@ nav ul li{
     cursor:pointer;
 }
 
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
 nav li:hover{
-    background-color: #ffa600;
+    background-color: chocolate;
     color: black;
 }
 
