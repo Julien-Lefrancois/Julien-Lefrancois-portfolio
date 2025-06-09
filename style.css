@@ -1,11 +1,13 @@
 body{
-    background-color: #e27800;
+    background-color: #5c5c5c;
+    color : white;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HEADER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 header{
-    background-color: #ffa600;
-    color: black;
+    background-color: #3f3f3f;
+    color: white;
+    padding: 20px;
 }
 
 header h1{
@@ -22,13 +24,17 @@ nav ul{
 }
 
 nav ul li{
-    background :linear-gradient(to bottom right,#0066ff, #00ff22);
+    background :linear-gradient(to bottom right,#ffae00, #ff1100);
     color: black;
     text-decoration: none;
-    margin: 30px;
+    margin: 20px;
     padding: 5px 10px;
     border: solid black 1px;
     cursor:pointer;
+}
+
+nav ul{
+    background-color: #5c5c5c;
 }
 
 nav ul li a{
@@ -44,30 +50,29 @@ nav ul li:hover{
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MAIN %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 main{
-    background-color: burlywood;
+    background-color: #5c5c5c;
     padding: 20px;
 }
 
-/* article{
+article{
     display: flex;
-    padding: 5px;
+    flex-direction: column;
+    justify-self: center;
 }
 
 article p{
     display: flex;
-    width: 400px;
-    background-color: #ffa600;
-    padding: 30px;
-    margin: 20px;
-} */
+    background-color: #ff5100;
+}
 
 h1{
     font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FOOTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 footer{
-    background-color: #ffa600;
+    background-color: #3f3f3f;
     height: 300px;
 }
