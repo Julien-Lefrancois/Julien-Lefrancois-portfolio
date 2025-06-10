@@ -84,6 +84,15 @@ h3{
     font-size: 2em;
 }
 
+a{
+    text-decoration: none;
+    color: #ffae00;
+}
+
+a:hover{
+    color: #ff1100;
+}
+
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FOOTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 footer{
@@ -92,14 +101,7 @@ footer{
     padding: 20px;
 }
 
-footer p a{
-    text-decoration: none;
-    color: #ffae00;
-}
 
-footer p a:hover{
-    color: #ff1100;
-}
 
 footer p{
     font-size: large;
