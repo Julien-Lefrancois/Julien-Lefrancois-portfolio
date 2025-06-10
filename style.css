@@ -89,7 +89,7 @@ a{
     color: #ffae00;
 }
 
-a:hover{
+footer a:hover, main a:hover{
     color: #ff1100;
 }
 
