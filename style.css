@@ -63,7 +63,6 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-self:normal;
     background-color: #3f3f3f;
     margin: 70px;
     padding: 20px;
